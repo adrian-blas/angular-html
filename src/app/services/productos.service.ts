@@ -20,6 +20,11 @@ export class ProductosService {
                console.log(resp);
                this.cargando = false;
                this.productos = resp;
+
+               // setTimeout( () =>{
+               //   this.cargando = false;
+               // }, 2000);
+
              });
   }
 }
